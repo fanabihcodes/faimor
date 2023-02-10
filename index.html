@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/icon11.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="slides.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+  <link rel="shortcut icon" href="icon11.png">
+  <title> Faimor </title>
+</head>
+
+<body class="text-white-800 antialiased">
+  <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 ">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <a class="text-base font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+          href="#"><img class="inline-block mr-0 py-0 " src="icon11.png" width="40px">aimor</a><button
+          class="cursor-pointer text-lg leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="lg:flex flex-grow justify-center items-center bg-amber-600 lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar">
+        <!-- <ul class="flex flex-col lg:flex-row list-none mr-auto">
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"><i
+                class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
+              Docs</a>
+          </li>
+        </ul> -->
+        <ul class="flex flex-row lg:flex-row list-none pr-10 ml-auto mr-auto ">
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-500 hover:text-gray-900 px-3 py-4 lg:py-2 flex  items-center text-sm font-semibold"
+              href="#abouthero">Home<i class="lg:text-gray-300 text-blue-500 fab  text-lg leading-lg "></i><span
+                class="lg:hidden inline-block ml-2"></span></a>
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-500 hover:text-gray-900 px-3 py-4 lg:py-2 flex items-center text-sm font-semibold"
+              href="galery.html">Our Works<i class="lg:text-gray-300 text-gray-500 fab  text-lg leading-lg "></i><span
+                class="lg:hidden inline-block ml-2"></span></a>
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-500 hover:text-gray-900 px-3 py-4 lg:py-2 flex items-center text-sm font-semibold"
+              href="#kerjasama">Services<i class="lg:text-gray-300 text-gray-500 fab  text-lg leading-lg "></i><span
+                class="lg:hidden inline-block ml-2"></span></a>
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-500 hover:text-gray-900 px-3 py-4 lg:py-2 flex items-center text-sm font-semibold"
+              href="#kerjasama">Contact<i class="lg:text-gray-300 text-gray-500 fab  text-lg leading-lg "></i><span
+                class="lg:hidden inline-block ml-2"></span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover"
+        style='background-image: url("https://images.pexels.com/photos/916017/pexels-photo-916017.jpeg?cs=srgb&dl=pexels-mubaz-basheer-916017.jpg&fm=jpg/&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'>
+        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-gray-350"></span>
+      </div>
+      <div class="container relative mx-auto">
+        <div class="items-center flex flex-wrap">
+          <div class="ml-auto mr-auto text-center">
+            <div class="pr-15">
+              <h5 class="text-white font-semibold text-4xl">
+                Your story starts with us.
+              </h5>
+              <p class="mt-3 text-2x1 font-medium text-gray-300">
+                We will help every project you want to implement as soon as possible.
+                With us your project will be completed on time
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px;">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
+    <section class="pb-20 bg-gray-300 -mt-24">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+            <!-- <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                  <i class="fas fa-award"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Awarded Agency</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Divide details about your product or agency work into parts.
+                  A paragraph describing a feature will be enough.
+                </p>
+              </div>
+            </div> -->
+          </div>
+          <div class="w-full md:w-4/12 px-4 text-center">
+            <!-- <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                  <i class="fas fa-retweet"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Free Revisions</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Keep you user engaged by providing meaningful information.
+                  Remember that by this time, the user is curious.
+                </p>
+              </div>
+            </div> -->
+          </div>
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+            <!-- <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+                  <i class="fas fa-fingerprint"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Verified Company</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Write a few lines about each one. A paragraph describing a
+                  feature will be enough. Keep you user engaged!
+                </p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center mt-32">
+          <div class="w-full px-4 mr-auto ml-auto">
+            <div
+              class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
+              <i class="fas fa-user-friends text-xl"></i>
+            </div>
+            <h3 class="text-3xl mb-2 font-semibold leading-normal">
+              Working with us is a pleasure
+            </h3>
+            <p class="text-lg font-normal leading-relaxed mt-4 mb-4 text-gray-800">
+              My philosophy of life is that if we make up our mind what we are going to make of our lives.
+              then work hard toward that goal, we never lose somehow we win out.
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <section id="project" class="overflow-hidden text-gray-700 ">
+        <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+          <div class="flex flex-wrap -m-1 md:-m-2 tz-gallery">
+
+            <div class="flex flex-wrap w-1/2">
+              <div class="thumbnail"></div>
+              <a class="w-1/2 p-1 md:p-2" href="/images/berduacewe.jpg">
+                <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                  src="/images/berduacewe.jpg">
+              </a>
+              <div class="w-1/2 p-1 md:p-2">
+                <a class="" href="/images/cewe1.jpg">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="images/cewe1.jpg">
+                </a>
+              </div>
+              <div class="w-full p-1 md:p-2">
+                <a class="" href="/images/fotod1.jpg">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="images/fotod1.jpg">
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-wrap w-1/2">
+              <div class="w-full p-1 md:p-2">
+                <a class=""
+                  href="https://images.pexels.com/photos/2959196/pexels-photo-2959196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="https://images.pexels.com/photos/2959196/pexels-photo-2959196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                </a>
+              </div>
+              <div class="w-1/2 p-1 md:p-2">
+                <a class="" href="/images/model1.jpg">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="images/model1.jpg">
+                </a>
+              </div>
+              <div class="w-1/2 p-1 md:p-2">
+                <a class="" href="/images/model2.jpg">
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="images/model2.jpg">
+                </a>
+              </div>
+            </div>
+          </div>
+      </section>
+    </section>
+
+    <!-- UI/UX Section -->
+    <section class="relative py-20">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px;">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="" y="0">
+          <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <style>
+              .mySlides {
+                display: true;
+              }
+            </style>
+
+            <body>
+              <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="/images/Clayw.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="/images/Clayw2.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="/images/cw3.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+
+              <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {
+                    slideIndex = 1
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex - 1].style.display = "block";
+                  dots[slideIndex - 1].className += " active";
+                  setTimeout(showSlides, 5000); // Change image every 2 seconds
+                }
+              </script>
+
+          </div>
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="md:pr-12">
+              <div
+                class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+                <i class="fas fa-rocket text-xl"></i>
+              </div>
+              <h3 class="text-3xl font-semibold">A growing company</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                The extension comes with three pre-built pages to help you get
+                started faster. You can change the text and images and you're
+                good to go.
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fas fa-fingerprint"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        Carefully crafted components
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Amazing page examples</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="far fa-paper-plane"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Dynamic components</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="abouthero" class="pt-20 pb-48">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold">Here are our heroes</h2>
+            <p class="text-lg leading-relaxed m-4 text-gray-600">
+              Successful people don't fear failure but understand that it's necessary to learn and grow
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="w-full md:w-6/12 lg:w-3/11 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img alt="..." src="./images/Fotosut.png" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Sutan Fanabih</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  UI/UX Designer <br> Front-End Developer
+                </p>
+                <div class="mt-6">
+                  <button class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-dribbble"></i></button><button
+                    class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-google"></i></button><button
+                    class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-twitter"></i></button><button
+                    class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-instagram"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-3/11 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img alt="..." src="./images/danang.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Danang Sencthyaki</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  Photographer
+                </p>
+                <div class="mt-6">
+                  <button class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-dribbble"></i></button><button
+                    class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-google"></i></button><button
+                    class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-twitter"></i></button>
+                  <button class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-instagram"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="kerjasama" class="relative block py-24 lg:pt-10px bg-gray-900">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center lg:-mt-16 -mt-10">
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
+              <div class="flex-auto p-5 lg:p-10">
+                <h4 class="text-2xl font-semibold text-center">Want to work with us?</h4>
+                <p class="leading-relaxed mt-1 mb-4 text-gray-600 text-center">
+                  <a class="flex fab fa-mail" href="mail.to" target="blank"></a>
+                  Complete this form and we will get back to you in 24 hours.
+                </p>
+                <div class="relative w-full mb-3 mt-8 ">
+                  <button
+                    class="bg-green-400 text-white shadow-lg font-normal h-10 w-10  items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                    type="button">
+                    <a class="flex fab fa-whatsapp "
+                      href="https://api.whatsapp.com/send?phone=6282321714160&text=Hallo%20saya%20ingin%20memakai%20jasa%20Faimor"
+                      target="blank"></a>
+                  </button>
+                  <a class="leading-relaxed text-gray-600 font-semibold mt-2 mb-5 "
+                    href="https://api.whatsapp.com/send?phone=6282321714160&text=Hallo%20saya%20ingin%20memakai%20jasa%20Faimor"
+                    target="blank">Whatsapp: +6282321714160</a>
+                </div>
+
+                <div class="relative w-full mb-2 mt-2 ">
+                  <button
+                    class="bg-pink-500 text-white shadow-lg font-normal w-10 h-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                    type="button">
+                    <a class="flex fab fa-instagram"></a>
+                  </button>
+                  <a class="leading-relaxed text-gray-600 font-semibold mt-2 mb-5 "
+                    href="https://www.instagram.com/faimor.id/" target="blank">Instagram Faimor</a>
+                </div>
+
+                <div class="relative w-full mb-2 mt-2 ">
+                  <button
+                    class="bg-blue-500 text-white shadow-lg font-normal w-10 h-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                    type="button">
+                    <a class="flex fa fa-envelope" href="mailto: sutanfanabih.team.com" target="blank"></a>
+                  </button>
+                  <a class="leading-relaxed text-gray-600 font-semibold mt-2 mb-5 "
+                    href="mailto: sutanfanabih.team.com">Sutanfanabih.team@gmail.com</a>
+                </div>
+                <br>
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    for="message">Message</label><textarea rows="4" cols="80"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Type a message..."></textarea>
+                </div>
+                <div class="text-left mt-6 ">
+                  <button type="button"
+                    class="bg-blue-600 text-white text-sm leading-6 font-medium py-2 px-8 rounded-full">Send
+                    Message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="relative bg-gray-300 pt-8 pb-6">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px;">
+      <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+        version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+        <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+    </div>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap justify-center text-center">
+        <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-gray-700">
+            Find us on any of these platforms, we respond 1-2 business days.
+          </h5>
+          <div class="mt-6">
+            <button
+              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-twitter"></i></button>
+            <button
+              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-facebook-square"></i></button>
+            <button
+              class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <a class="flex fab fa-instagram" href="https://www.instagram.com/faimor.id/" target="blank"></a>
+            </button>
+
+            <button
+              class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-tiktok"></i>
+            </button>
+          </div>
+        </div>
+        <!-- <div class="w-full lg:w-6/12 px-4">
+          <div class="flex flex-wrap items-top mb-6">
+            <div class="w-full lg:w-4/12 px-4 ml-auto">
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Useful Links</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://www.creative-tim.com/presentation">About Us</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://blog.creative-tim.com">Blog</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://www.github.com/creativetimofficial">Github</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://www.creative-tim.com/bootstrap-themes/free">Free Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full lg:w-4/12 px-4">
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Other Resources</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md">MIT
+                    License</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://creative-tim.com/terms">Terms &amp; Conditions</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://creative-tim.com/privacy">Privacy Policy</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://creative-tim.com/contact-us">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <hr class="my-6 border-gray-400" />
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-gray-600 font-semibold py-1">
+            <!-- Build with Tailwind <br>Copyright © 2021   -->
+            <a class="text-gray-600 hover:text-gray-900"> Copyright 2021 Faimor Team | All right reserved</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+    baguetteBox.run('.tz-gallery');
+  </script>
+</body>
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
+</script>
+
+</html>

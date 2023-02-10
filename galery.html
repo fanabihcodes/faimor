@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/icon11.png" />
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="slides.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+    <link rel="shortcut icon" href="icon11.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title> Faimor galery </title>
+</head>
+
+<body>
+    <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 ">
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+            <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+                <a class="text-base font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+                    href="#">
+                    <img class="inline-block mr-0 py-0 " src="" width="40px"></a>
+                <button
+                    class="cursor-pointer text-lg leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                    type="button" onclick="toggleNavbar('example-collapse-navbar')">
+                    <i class="text-white fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="lg:flex flex-grow justify-center items-center bg-amber-600 lg:bg-transparent lg:shadow-none hidden"
+                id="example-collapse-navbar">
+                <!-- <ul class="flex flex-col lg:flex-row list-none mr-auto">
+              <li class="flex items-center">
+                <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"><i
+                    class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
+                  Docs</a>
+              </li>
+            </ul> -->
+                <ul class="flex flex-row lg:flex-row list-none pr-10 ml-auto mr-auto ">
+                    <li class="flex items-center">
+                        <a class="lg:text-gray-500 lg:hover:text-orange-500 hover:text-gray-900 px-3 py-4 lg:py-2 flex  items-center text-sm font-semibold"
+                            href="index.html">Home<i
+                                class="lg:text-gray-300 text-blue-500 fab  text-lg leading-lg "></i><span
+                                class="lg:hidden inline-block ml-2"></span></a>
+                    <li class="flex items-center">
+                        <a class="lg:text-gray-500 lg:hover:text-orange-500 hover:text-gray-900 px-3 py-4 lg:py-2 flex items-center text-sm font-semibold"
+                            href="galery.html">Our Works<i
+                                class="lg:text-gray-300 text-orange-500 fab  text-lg leading-lg "></i><span
+                                class="lg:hidden inline-block ml-2"></span></a>
+                    <li class="flex items-center">
+                        <a class="lg:text-gray-500 lg:hover:text-orange-500 hover:text-gray-900 px-3 py-4 lg:py-2 flex items-center text-sm font-semibold"
+                            href="#kerjasama">Services<i
+                                class="lg:text-gray-300 text-orange-500 fab  text-lg leading-lg "></i><span
+                                class="lg:hidden inline-block ml-2"></span></a>
+                    <li class="flex items-center">
+                        <a class="lg:text-gray-500 lg:hover:text-orange-500 hover:text-gray-900 px-3 py-4 lg:py-2 flex items-center text-sm font-semibold"
+                            href="index.html#kerjasama">Contact<i
+                                class="lg:text-gray-300 text-gray-500 fab  text-lg leading-lg "></i><span
+                                class="lg:hidden inline-block ml-2"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ------------------- -->
+    <section id="project" class="overflow-hidden bg-gray-300 text-gray-700 ">
+
+        <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+            <div class="w-full px-4 mr-auto ml-auto">
+                <div
+                    class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
+                    <i class="fas fa-camera text-xl"></i>
+                </div>
+                <h3 class="text-3xl mb-2 font-semibold leading-normal">
+                    Previous Project Photograph
+                </h3>
+                <p class="text-lg font-normal leading-relaxed mt-4 mb-4 text-gray-800">
+                    My philosophy of life is that if we make up our mind what we are going to make of our lives.
+                    then work hard toward that goal, we never lose somehow we win out.
+                </p>
+            </div>
+            <div class="flex flex-wrap -m-1 md:-m-2 tz-gallery">
+
+                <div class="flex flex-wrap w-1/2">
+                    <div class="thumbnail"></div>
+                    <a class="w-1/2 p-1 md:p-2" href="/images/berduacewe.jpg">
+                        <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                            src="/images/berduacewe.jpg">
+                    </a>
+                    <div class="w-1/2 p-1 md:p-2">
+                        <a class="" href="/images/cewe1.jpg">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                                src="images/cewe1.jpg">
+                        </a>
+                    </div>
+                    <div class="w-full p-1 md:p-2">
+                        <a class="" href="/images/fotod1.jpg">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                                src="images/fotod1.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-wrap w-1/2">
+                    <div class="w-full p-1 md:p-2">
+                        <a class=""
+                            href="https://images.pexels.com/photos/2959196/pexels-photo-2959196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                                src="https://images.pexels.com/photos/2959196/pexels-photo-2959196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                        </a>
+                    </div>
+                    <div class="w-1/2 p-1 md:p-2">
+                        <a class="" href="/images/model1.jpg">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                                src="images/model1.jpg">
+                        </a>
+                    </div>
+                    <div class="w-1/2 p-1 md:p-2">
+                        <a class="" href="/images/model2.jpg">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                                src="images/model2.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- //selesai// -->
+            <div class="w-full px-4 mr-auto ml-auto">
+                <div
+                    class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
+                    <i class="fas fa-user text-xl"></i>
+                </div>
+                <h3 class="text-3xl mb-2 font-semibold leading-normal">
+                    Previous Project Web Developer
+                </h3>
+                <p class="text-lg font-normal leading-relaxed mt-4 mb-4 text-gray-800">
+                    My philosophy of life is that if we make up our mind what we are going to make of our lives.
+                    then work hard toward that goal, we never lose somehow we win out.
+                </p>
+            </div>
+            <div id="carouselExampleCrossfade" class="carousel slide carousel-fade relative" data-bs-ride="carousel">
+                <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                    <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner relative w-full overflow-hidden">
+                    <div class="carousel-item active float-left w-full">
+                        <img src="assets/img/login.png" class="block w-full" alt="Tampilang Login" />
+                    </div>
+                    <div class="carousel-item float-left w-full">
+                        <img src="assets/img/sbarang.png" class="block w-full" alt="Stock Barang" />
+                    </div>
+                    <div class="carousel-item float-left w-full">
+                        <img src="assets/img/smasuk.png" class="block w-full" alt="Tampilang Barng Masuk" />
+                    </div>
+                    <div class="carousel-item float-left w-full">
+                        <img src="assets/img/bkeluar.png" class="block w-full" alt="Tampilang Barng Keluar" />
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                    type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                    type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="project1" class="overflow-hidden bg-gray-300 text-gray-700 ">
+        <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+            <div class="w-full px-4 mr-auto ml-auto">
+                <div
+                    class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
+                    <i class="fas fa-user text-xl"></i>
+                </div>
+                <h3 class="text-3xl mb-2 font-semibold leading-normal">
+                    Previous Project UI/UI Designer
+                </h3>
+                <p class="text-lg font-normal leading-relaxed mt-4 mb-4 text-gray-800">
+                    My philosophy of life is that if we make up our mind what we are going to make of our lives.
+                    then work hard toward that goal, we never lose somehow we win out.
+                </p>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide relative" data-bs-ride="carousel">
+                <div class="carousel-inner relative w-full overflow-hidden">
+                    <div class="carousel-item active relative float-left w-full bg-transparent">
+                        <img src="assets/img/uiux.png" class="block w-full " alt="Wild Landscape" />
+                    </div>
+                    <div class="carousel-item relative float-left w-full bg-transparent">
+                        <img src="assets/img/uiux2.png" class="block w-full" alt="Camera" />
+                    </div>
+
+                </div>
+                <button
+                    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                    type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                    type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="relative bg-amber- pt-8 pb-6">
+        <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+            style="height: 80px;">
+        </div>
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center text-center">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+                    <h5 class="text-lg mt-0 mb-2 text-gray-700">
+                        Find us on any of these platforms, we respond 1-2 business days.
+                    </h5>
+                    <div class="mt-6">
+                        <button
+                            class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                            type="button">
+                            <i class="flex fab fa-twitter"></i></button>
+                        <button
+                            class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                            type="button">
+                            <i class="flex fab fa-facebook-square"></i></button>
+                        <button
+                            class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                            type="button">
+                            <a class="flex fab fa-instagram " href="https://www.instagram.com/faimor.id/"
+                                target="blank"></a>
+                        </button>
+                        <button
+                            class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                            type="button">
+                            <i class="flex fab fa-tiktok"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- <div class="w-full lg:w-6/12 px-4">
+            <div class="flex flex-wrap items-top mb-6">
+              <div class="w-full lg:w-4/12 px-4 ml-auto">
+                <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Useful Links</span>
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://www.creative-tim.com/presentation">About Us</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://blog.creative-tim.com">Blog</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://www.github.com/creativetimofficial">Github</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://www.creative-tim.com/bootstrap-themes/free">Free Products</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full lg:w-4/12 px-4">
+                <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Other Resources</span>
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md">MIT
+                      License</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://creative-tim.com/terms">Terms &amp; Conditions</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://creative-tim.com/privacy">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://creative-tim.com/contact-us">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div> -->
+            </div>
+            <hr class="my-6 border-gray-400" />
+            <div class="flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="text-sm text-gray-600 font-semibold py-1">
+                        <!-- Build with Tailwind <br>Copyright © 2021   -->
+                        <a class="text-gray-600 hover:text-gray-900"> Copyright 2021 Faimor Team | All right
+                            reserved</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+</body>
+<script>
+    function toggleNavbar(collapseID) {
+        document.getElementById(collapseID).classList.toggle("hidden");
+        document.getElementById(collapseID).classList.toggle("block");
+    }
+</script>
+
+</html>
